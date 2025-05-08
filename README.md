@@ -23,15 +23,18 @@ This work shows the growth process of linear patterns, with dense graphic struct
 ## 2.Coding Technique Exploration
 
 ### 1.Particle Plotter by Vamoss
-This work is based on p5.js, and generates a flowing pattern by continuously updating the particle position and controlling the angle. The noise() function is used to create natural disturbances, and frameCount is combined to achieve dynamic visuals that change over time. I plan to use this method as a decoration and embellishment in the work to complete the generated dynamic image.
+This work is based on p5.js, and generates a flowing pattern by continuously updating the particle position and controlling the angle. The sin() and cos() functions are used to create natural disturbances, and frameCount is combined to achieve dynamic visuals that change over time. I plan to use this method as a decoration and embellishment in the work to complete the generated dynamic image.
 [view code on OpenProcessing](https://openprocessing.org/sketch/751983)
+！[Particle Plotter by Vamoss](./image/Particle%20Plotter%20by%20Vamoss.png)
 
 ### 2.Ink Chromatography by Ivan Rudnicki
-This work uses pixel-level image processing to simulate ink diffusion through loadPixels() and updatePixels() operations, producing a gradient diffusion effect. I hope to use this technology to make the work have a richer visual experience, such as using this effect in the background.
+This work uses pixel-level image processing to simulate ink diffusion through filter()，rect() and scale() operations, producing a gradient diffusion effect. I hope to use this technology to make the work have a richer visual experience, such as using this effect in the background.
 [view code on OpenProcessing](https://openprocessing.org/sketch/2613929)
+！[Ink Chromatography by Ivan Rudnicki](./image/Ink%20Chromatography%20by%20Ivan%20Rudnicki.png)
 
 ### 3."HPV1" by -RobA> (aka Cartocopia)
 This work uses the particle effect in p5.js to simulate cell-like expansion by controlling the random position and growth rules of particles. It uses cyclic transformation to generate dense distribution of images to form a bionic structure. I hope to use this kind of generative technology as an embellishment in my work to make the picture rich, layered and more visually attractive.
 [view code on OpenProcessing](https://openprocessing.org/sketch/2563161)
+！["HPV1" by -RobA> (aka Cartocopia)](./image/hpv1-code.png)
 
 
